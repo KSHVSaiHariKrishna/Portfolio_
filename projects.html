@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sai Hari Krishna</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        #lets-connect {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        #lets-connect h2 {
+            font-size: 1.8rem;
+        }
+        #lets-connect .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 1.5rem;
+        }
+        #lets-connect .social-icons a:hover {
+            color: rgb(0, 123, 255);
+        }
+        section.project {
+            padding: 3rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+        section.project:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sai Hari Krishna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+            
+            <!-- Project 1 -->
+            <section class="project" data-aos="fade-up">
+                <h3>Melanoma Skin Cancer Detection Using Deep Learning Models</h3>
+                <p>Developed an end-to-end deep learning model to detect melanoma using dermoscopic images. Leveraged transfer learning with EfficientNetB0 and MobileNet to enhance model accuracy. Applied data augmentation techniques to prevent overfitting and used the Adam optimizer for efficient training. Achieved a peak accuracy of 98.25%, optimizing the model for medical image analysis and unseen data generalization.</p>
+                <p><strong>Role:</strong> Lead Developer, focused on model design, training, and evaluation.</p>
+                <a href="https://github.com/21BCE8069/A-DEEP-LEARNING-MODEL-TO-DETECT-MELANOMA-SKIN-CANCER" class="btn btn-primary">View GitHub Repository</a>
+            </section>
+
+            <!-- Project 2 -->
+            <section class="project" data-aos="fade-up">
+                <h3>Heart Attack Prediction Using Ensemble Techniques</h3>
+                <p>Created a predictive model to evaluate heart attack risk using patient health data. Utilized ensemble models like HistGradient Boosting and SVC, achieving a ROC AUC score of 0.955. Conducted hyperparameter tuning with RandomizedSearchCV to optimize performance and analyzed key risk factors to provide medical insights.</p>
+                <p><strong>Role:</strong> Data Scientist, responsible for model building and performance optimization.</p>
+                <a href="https://github.com/21BCE8069/HEART_ATTACK_PREDICTION_USING_ML_AND_ENSEMBLE_LEARNING" class="btn btn-primary">View GitHub Repository</a>
+            </section>
+
+            <!-- Project 3 -->
+            <section class="project" data-aos="fade-up">
+                <h3>Mental Health Prediction System</h3>
+                <p>Developed a machine learning model to predict the need for mental health treatment using survey data. Experimented with algorithms like XGBoost, AdaBoost, and Random Forest, achieving 87% prediction accuracy with AdaBoost. Deployed the model using Flask for real-time accessibility with a user-friendly interface.</p>
+                <p><strong>Role:</strong> Model Developer and Deployer, focusing on algorithm experimentation and deployment.</p>
+                <a href="https://github.com/21BCE8069/Mental-Health-Prediction-using-Machine-Learning" class="btn btn-primary">View GitHub Repository</a>
+            </section>
+
+            <!-- Project 4 -->
+            <section class="project" data-aos="fade-up">
+                <h3>Sentiment Analysis on PUBG Reviews Using LSTM</h3>
+                <p>Built a sentiment analysis model using PyTorch and LSTM to classify user reviews of PUBG. Employed word embeddings and tokenization for better feature extraction from unstructured data. Addressed class imbalance using SMOTE and proposed enhancements for multilingual sentiment analysis to expand capabilities.</p>
+                <p><strong>Role:</strong> Machine Learning Engineer, focusing on model architecture and data preprocessing.</p>
+                <a href="https://github.com/21BCE8069/The-Sentiment-Analysis-on-PUBG-Reviews-using-LSTM-Model" class="btn btn-primary">View GitHub Repository</a>
+            </section>
+        </div>
+    </section>
+
+    <!-- Let's Connect Section -->
+    <footer id="lets-connect">
+        <h2>Let's Connect</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/21BCE8069" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://twitter.com/your-twitter" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/your-instagram" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

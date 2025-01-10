@@ -1,0 +1,142 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #fff; /* Adjusted to white for better readability */
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Full-page gradient */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Section Headings */
+h1, h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff; /* Headings inherit the text color */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/* Hi There Section */
+#hi-there {
+    padding: 60px 20px;
+    background: none; /* Inherits body background */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#hi-there h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#hi-there p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Project Cards */
+.card {
+    border: none;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background for cards */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #eee;
+}
+
+/* Progress Bars */
+.progress-bar {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent bar background */
+}
+
+/* Contact Form */
+form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: #fff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.3); /* Transparent footer background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #hi-there h1 {
+        font-size: 2.5rem;
+    }
+
+    #hi-there p {
+        font-size: 1rem;
+    }
+
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
